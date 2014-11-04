@@ -1,0 +1,33 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace esri "http://www.esri.com/2008/ags";
+@namespace supportClasses "com.esri.ags.components.supportClasses.*";
+
+supportClasses|InfoContainer
+{
+    borderSkin: ClassReference("com.esri.ags.components.supportClasses.InfoBorder");
+    verticalGap: 0;
+    paddingLeft: 3;
+    paddingRight: 3;
+    paddingTop: 3;
+    paddingBottom: 3;
+    backgroundColor: #76D100;
+    backgroundAlpha: 1.0;
+    borderThickness: 2;
+    borderColor: #999999;
+    borderAlpha: 1.0;    
+    upperLeftRadius: 5;
+    upperRightRadius: 5;
+    lowerLeftRadius: 5;
+    lowerRightRadius: 5;
+    infoPlacementMode: auto;
+    infoPlacement: top;
+    infoOffsetX: 30;
+    infoOffsetY: 60;
+    infoOffsetW: 5;
+    shadowDistance: 0.0;
+    shadowAlpha: 1.0;
+    shadowAngle: 45.0;
+    shadowColor: #000000;    
+}
